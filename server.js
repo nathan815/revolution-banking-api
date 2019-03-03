@@ -3,11 +3,13 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const port = 8000;
+// Middleware
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', function(req, res) {
-  res.send('Hello world')
-});
+// Setup the routes
+require('./app/routes')(app);
+
+const port = 8000;
 
 app.listen(port, () => {
   console.log('Server running on port ' + port);
