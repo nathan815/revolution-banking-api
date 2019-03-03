@@ -1,0 +1,26 @@
+{
+  "name": "revolution-banking-api",
+  "version": "1.0.0",
+  "description": "API for Revolution Banking. Open Banking Standard compliant",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan815/revolution-banking-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan815/revolution-banking-api/issues"
+  },
+  "homepage": "https://github.com/nathan815/revolution-banking-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
